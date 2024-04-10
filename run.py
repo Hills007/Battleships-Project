@@ -90,10 +90,13 @@ class Board:
                 if player_ships_hit == computer_board.num_ships:
                     print("Player wins!")
                     break
-                
+
     # Computer's turn
         print("Computer's turn:")
         x = random_point(player_board.size)
         y = random_point(player_board.size)
         result = player_board.guess(x, y)
         print(f"Computer guesses: ({x}, {y}) - {result}")
+        if result == "Hit":
+            computer_ships_hit += 1
+            scores["computer"] += 1
