@@ -55,5 +55,9 @@ class Board:
                 y = random_point(board.size)
             board.add_ship(x, y)
 
-    def make_guess(board):  
+    def make_guess(board):
+                x = int(input("Enter row number to guess: "))
+                y = int(input("Enter column number to guess: "))
+                if not valid_coordinates(x, y, board):
+                    print("Invalid coordinates. Please try again.")
         
