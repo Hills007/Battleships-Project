@@ -109,3 +109,9 @@ class Board:
         computer_board.display()
         # Diplay score after each round
         display_score()
+
+    def new_game():
+    size = 5
+    num_ships = 4
+    scores["player"] = 0
+    scores["computer"] = 0
