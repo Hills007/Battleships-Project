@@ -84,3 +84,8 @@ class Board:
         while player_ships_hit < computer_board.num_ships and computer_ships_hit < player_board.num_ships:
             print("Player's turn:")
             result = make_guess(computer_board)
+            if result == "Hit":
+                player_ships_hit += 1
+                scores["player"] += 1
+                if player_ships_hit == computer_board.num_ships:
+                    print("Player wins!")
