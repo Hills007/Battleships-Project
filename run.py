@@ -66,6 +66,10 @@ class Board:
                 if (x, y) in board.guesses:
                     print("You cannot use the same coordinate twice.")
                     continue
-            break
-        except ValueError:
-            print("You must enter a number.")
+                break
+            except ValueError:
+                print("You must enter a number.")
+        result = board.guess(x, y)
+        print(result)
+        board.display()
+        return result
