@@ -107,3 +107,5 @@ class Board:
         player_board.display()
         print("Computer's board:")
         computer_board.display()
+        # Diplay score after each round
+        display_score()
