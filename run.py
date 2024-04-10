@@ -34,4 +34,9 @@ class Board:
             self.ships.append((x, y))
             if self.type == "player":
                 self.board[x][y] = "@"
+
+    def display_ships(self):
+        for ship in self.ships:
+            x, y = ship
+            self.board[x][y] = "@"            
         
