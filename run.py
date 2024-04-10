@@ -134,3 +134,5 @@ class Board:
         # Display player's ships
         player_board.display_ships()  
         player_board.display()
+
+        play_game(computer_board, player_board)
