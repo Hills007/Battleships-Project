@@ -25,3 +25,6 @@ class Board:
             return "Hit"
         else:
             return "Miss"
+
+    def add_ship(self, x, y):
+        
