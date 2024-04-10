@@ -12,3 +12,7 @@ class Board:
         self.type = board_type
         self.guesses = []
         self.ships = []
+
+    def display(self):
+        for row in self.board:
+            print(" ".join(row))
