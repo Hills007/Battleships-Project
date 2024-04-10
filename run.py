@@ -81,3 +81,6 @@ class Board:
     def play_game(computer_board, player_board):
         player_ships_hit = 0
         computer_ships_hit = 0
+        while player_ships_hit < computer_board.num_ships and computer_ships_hit < player_board.num_ships:
+            print("Player's turn:")
+            result = make_guess(computer_board)
