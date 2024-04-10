@@ -77,3 +77,7 @@ class Board:
     def display_score():
         print("Current Score:")
         print(f"Player: {scores['player']} | Computer: {scores['computer']}")
+
+    def play_game(computer_board, player_board):
+        player_ships_hit = 0
+        computer_ships_hit = 0
