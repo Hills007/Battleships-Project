@@ -143,3 +143,5 @@ class Board:
             new_game()
         else:
             print("Thank you for playing!")
+
+    new_game()
