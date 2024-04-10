@@ -120,3 +120,5 @@ class Board:
         print(f"Board Size: {size}. Number of ships: {num_ships}")
         print("Top left corner is row: 0, col: 0")
         print("_" * 35)
+        player_name = input("Please enter your name: \n")
+        print("_" * 35)
