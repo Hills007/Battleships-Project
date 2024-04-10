@@ -53,5 +53,7 @@ class Board:
             while (x, y) in board.ships:
                 x = random_point(board.size)
                 y = random_point(board.size)
-            board.add_ship(x, y)     
+            board.add_ship(x, y)
+
+    def make_guess(board):  
         
