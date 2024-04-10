@@ -136,3 +136,10 @@ class Board:
         player_board.display()
 
         play_game(computer_board, player_board)
+
+        #Add a Restart funtion after game ends
+        restart = input("Do you want to play again? (yes/no): ")
+        if restart.lower() == "yes":
+            new_game()
+        else:
+            print("Thank you for playing!")
