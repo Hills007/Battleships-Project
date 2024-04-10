@@ -122,3 +122,9 @@ class Board:
         print("_" * 35)
         player_name = input("Please enter your name: \n")
         print("_" * 35)
+
+        computer_board = Board(size, num_ships, "Computer", board_type="computer")
+        player_board = Board(size, num_ships, player_name, board_type="player")
+
+
+        populate_board(computer_board)
