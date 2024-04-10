@@ -10,7 +10,7 @@ class Board:
         self.num_ships = num_ships
         self.name = name
         self.type = board_type
-        self.guesses = []
+        self.guesses = set()
         self.ships = []
 
     def display(self):
