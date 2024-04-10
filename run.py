@@ -44,5 +44,7 @@ class Board:
         return randint(0) 
 
     def valid_coordinates(x, y, board):
-        return 0 <= x < board.size and 0 <= y < board.size       
+        return 0 <= x < board.size and 0 <= y < board.size  
+
+    def populate_board(board):     
         
