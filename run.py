@@ -100,3 +100,5 @@ class Board:
         if result == "Hit":
             computer_ships_hit += 1
             scores["computer"] += 1
+            if computer_ships_hit == player_board.num_ships:
+                print("Computer wins!")
