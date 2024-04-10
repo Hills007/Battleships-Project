@@ -111,7 +111,12 @@ class Board:
         display_score()
 
     def new_game():
-    size = 5
-    num_ships = 4
-    scores["player"] = 0
-    scores["computer"] = 0
+        size = 5
+        num_ships = 4
+        scores["player"] = 0
+        scores["computer"] = 0
+        print("_" * 35)
+        print("Welcome to ULTIMATE BATTLESHIPS!!")
+        print(f"Board Size: {size}. Number of ships: {num_ships}")
+        print("Top left corner is row: 0, col: 0")
+        print("_" * 35)
