@@ -102,3 +102,8 @@ class Board:
             scores["computer"] += 1
             if computer_ships_hit == player_board.num_ships:
                 print("Computer wins!")
+
+        # Display computer's guess on player's board
+        player_board.display()
+        print("Computer's board:")
+        computer_board.display()
