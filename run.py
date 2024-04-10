@@ -46,5 +46,12 @@ class Board:
     def valid_coordinates(x, y, board):
         return 0 <= x < board.size and 0 <= y < board.size  
 
-    def populate_board(board):     
+    def populate_board(board):
+        for _ in range(board.num_ships):
+            x = random_point(board.size)
+            y = random_point(board.size)
+            while (x, y) in board.ships:
+                x = random_point(board.size)
+                y = random_point(board.size)
+            board.add_ship(x, y)     
         
