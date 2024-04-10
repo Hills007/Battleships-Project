@@ -73,3 +73,7 @@ class Board:
         print(result)
         board.display()
         return result
+
+    def display_score():
+        print("Current Score:")
+        print(f"Player: {scores['player']} | Computer: {scores['computer']}")
