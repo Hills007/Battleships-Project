@@ -126,5 +126,11 @@ class Board:
         computer_board = Board(size, num_ships, "Computer", board_type="computer")
         player_board = Board(size, num_ships, player_name, board_type="player")
 
-
+        # Populate computer's board
         populate_board(computer_board)
+        # Populate player's board
+        populate_board(player_board)
+
+        # Display player's ships
+        player_board.display_ships()  
+        player_board.display()
