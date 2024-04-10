@@ -41,5 +41,8 @@ class Board:
             self.board[x][y] = "@"    
 
     def random_point(size):
-        return randint(0)        
+        return randint(0) 
+
+    def valid_coordinates(x, y, board):
+        return 0 <= x < board.size and 0 <= y < board.size       
         
