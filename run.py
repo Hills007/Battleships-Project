@@ -38,5 +38,8 @@ class Board:
     def display_ships(self):
         for ship in self.ships:
             x, y = ship
-            self.board[x][y] = "@"            
+            self.board[x][y] = "@"    
+
+    def random_point(size):
+        return randint(0)        
         
