@@ -4,13 +4,13 @@ Ultimate Battleships is a Python terminal game. Users can try to beat the comput
 
 Battleship (also known as Battleships or Sea Battle) is a strategy type guessing game for two players. It is played on ruled grids (paper or board) on which each player's fleet of warships are marked. The locations of the fleets are concealed from the other player. Players alternate turns calling "shots" at the other player's ships, and the objective of the game is to destroy the opposing player's fleet.
 
-(Here is the Live version of my project.)[]
+[Here is the Live version of my project.](https://battleships-game01-fa8c2957197e.herokuapp.com/)
 
-<img src = >
+<img src = images/Design.png>
 
 ## How to play:
 
-Ultimate battleship game is based on the classic pen-and-pencil game. Here is link for it to read more about it on (Wikipedia)[https://en.m.wikipedia.org/wiki/Paper-and-pencil_game]
+Ultimate battleship game is based on the classic pen-and-pencil game. Here is link for it to read more about it on [Wikipedia](https://en.m.wikipedia.org/wiki/Paper-and-pencil_game)
 
 In this version of the game, the player enters their name and two boards are randomley generated.
 
@@ -25,30 +25,37 @@ The target is to sink 4 battleships first and whoever does so wins the game.
 
 ## Features:
 
+• When the game starts, it asks the player to input name and generates the board
+
+<img src = images/Start.png>
+
 • Random board generation
 • Ships are randomley placed on both the player and computer boards
 • The player cannot see where the computer's ships are
 
-<img src = >
+<img src = images/Guess.png>
 
 • The player and computer then takes gueses by entering coordinate's on the board.
 • A guess is maked by an X, and a Hit by *.
 • After each hit the scoreboard is updated.
 
-<img src = >
+<img src = images/Guess.png>
 
 • The target is to sink all four ships in the fleet.
 • First to hit four ships wins the game and is declared winner on the board.
+
+<img src = images/Win.png>
+
 • After the game ends, the computer asks the player if they want to play again. When yes is selected, the player enters their name and play. If the player chooses no, a message of "Thankyou for playing!" is displayed.
 
-<img src = >
+<img src = images/Restart.png>
 
 • Input validation and error checking.
 You cannot enter coordinates outside the size of the grid
 You must enter numbers
 You cannot enter the same gues twice
 
-<img src = >
+<img src = images/Error.png>
 
 ## Future Featres:
 
