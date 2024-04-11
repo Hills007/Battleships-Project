@@ -119,3 +119,7 @@ Click on Deploy
 • Code Institute for deployment terminal 
 
 • Wikipedia for the details of the Battleships game
+
+• Partial Battleships project code taken from the sample project on codeanywhere
+
+
